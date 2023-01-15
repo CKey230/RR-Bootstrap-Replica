@@ -1,10 +1,14 @@
 import './App.css';
-import Nav from 'react-bootstrap/Nav'
+import TopBar from './components/TopBar'
+import BackGround from './components/Background'
+import StoreListings from './components/StoreListings'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <BackGround />
+      <StoreListings /> 
     </div>
   );
 }
